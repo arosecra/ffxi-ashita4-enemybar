@@ -70,7 +70,7 @@ action_tracking.track_action = function(action, runtime_config)
         end
         runtime_config.ActionStartTime = os.time();
     elseif actor_id < 0x01000000 then --npcs
-        local ability = AshitaCore:GetResourceManager():GetString("mobskills", action_id, 2);
+        local ability = AshitaCore:GetResourceManager():GetString("monster_abilities", action_id, 2);
         if ability ~= nil then
             runtime_config.Action = ability;
         else
