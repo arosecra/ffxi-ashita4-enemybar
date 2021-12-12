@@ -10,7 +10,6 @@ local common = require('common');
 
 local libs2imgui = require('org_github_arosecra/imgui');
 local libs2config = require('org_github_arosecra/config');
-local jobs = require('org_github_arosecra/jobs');
 local mechanics = require('org_github_arosecra/mechanics');
 local action = require('org_github_arosecra/packets/action');
 local action_tracking = require('action_tracking');
